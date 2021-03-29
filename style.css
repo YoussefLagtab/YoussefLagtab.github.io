@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Anonymous Pro;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	margin-top: 200px;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	max-width: 800px;
+}
+
+a {
+	text-decoration: underline;
+	color: #333;
+	font-size: 19px;
+}
+
+p {
+	font-size: 18px;
+}
+
+.center_text {
+	text-align: center;
+}
+
+.text_left {
+	text-align: left;
+}
+
+.small_div {
+	max-width: 600px;
+	align-self: center;
+}
+
+.paragraph {
+	font-size: 25px;
+}
+
+#hello {
+	font-size: 30px;
+}
+
+#name {
+	color: coral;
+	font-size: 35px;
+	font-weight: 600;
+}
+
+#bio {
+	/* font-size: 18px; */
+}
+
+#title {
+	font-size: 28px;
+	text-decoration: underline;
+}
+
+#project_name a {
+	color: lightcoral;
+	font-size: 252x;
+	font-weight: 500;
+}
+
+#contact {
+	margin: 0 10px;
+}
