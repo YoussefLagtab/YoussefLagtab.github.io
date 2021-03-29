@@ -9,10 +9,8 @@ body {
 	justify-content: center;
 	margin-top: 200px;
 }
+
 main {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	width: 100%;
 	max-width: 800px;
 }
@@ -23,52 +21,61 @@ a {
 	font-size: 19px;
 }
 
-p {
+#hello {
+	margin-bottom: 40px;
+}
+
+#name {
+	color: coral;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+#bio {
 	font-size: 18px;
+}
+
+#find_me {
+	margin-top: 70px;
+}
+
+#find_me {
+	margin-top: 70px;
+}
+
+#projects {
+	margin-top: 70px;
 }
 
 .center_text {
 	text-align: center;
 }
 
-.text_left {
-	text-align: left;
-}
-
-.small_div {
-	max-width: 600px;
-	align-self: center;
-}
-
-.paragraph {
-	font-size: 25px;
-}
-
-#hello {
+.title {
 	font-size: 30px;
+	margin: 0 0 50px 0;
 }
 
-#name {
-	color: coral;
-	font-size: 35px;
-	font-weight: 600;
-}
-
-#bio {
-	/* font-size: 18px; */
-}
-
-#title {
-	font-size: 28px;
-	text-decoration: underline;
-}
-
-#project_name a {
+.project_name > a {
 	color: lightcoral;
-	font-size: 252x;
+	font-size: 20px;
 	font-weight: 500;
 }
 
-#contact {
-	margin: 0 10px;
+.project_name {
+	margin-bottom: 40px;
+	margin-top: 40px;
+
+}
+
+.project_description {
+	font-size: 18px;
+}
+
+.projects *:not(:first-child){
+	margin: 40px 0 10px 0;
+}
+
+.contact {
+	margin: 0 25px;
 }
