@@ -7,9 +7,14 @@
 body {
 	display: flex;
 	position: relative;
+	min-height: 100vh;
 	justify-content: center;
 	padding: 200px 0;
 	overflow-x: hidden;
+}
+
+* {
+	box-sizing: border-box;
 }
 
 main {
@@ -17,11 +22,16 @@ main {
 	max-width: 800px;
 }
 
-img {
+#background {
 	position: absolute;
 	top: 0;
+	height: 100%;
+	width: 100%;
 	z-index: -1;
-	opacity: .06;
+	opacity: .04;
+	background-image: url('./background.jpg');
+	background-size: cover;
+	background-position: center;
 }
 
 a {
