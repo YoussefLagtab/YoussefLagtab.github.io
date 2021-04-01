@@ -6,10 +6,12 @@
 
 body {
 	display: flex;
+	background-color: #0e1013;
+	color: whitesmoke;
 	position: relative;
 	min-height: 100vh;
 	justify-content: center;
-	padding: 200px 0;
+	padding-bottom: 60px;
 	overflow-x: hidden;
 }
 
@@ -20,6 +22,7 @@ body {
 main {
 	width: 100%;
 	max-width: 800px;
+	padding: 0 25px;
 }
 
 #background {
@@ -36,26 +39,45 @@ main {
 
 a {
 	text-decoration: underline;
-	color: #333;
-	font-size: 19px;
+	color: slategray;
+	font-size: 20px;
+}
+
+#togglTheme {
+	display: flex;
+	justify-content: center;
+	margin: 60px 0;
+}
+
+#toggleThemeBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 40px;
+	background-color: #0e1013;
+	border: 1.5px solid slategray;
+	color: whitesmoke;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+#toggleThemeBtn:focus {
+	outline: none;
+	box-shadow: none;
 }
 
 #hello {
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 #name {
 	color: slategray;
 	font-size: 40px;
 	font-weight: 600;
-}
-
-#bio {
-	font-size: 18px;
-}
-
-#find_me {
-	margin-top: 70px;
+	white-space: nowrap;
 }
 
 #find_me {
@@ -71,14 +93,9 @@ a {
 }
 
 .title {
-	font-size: 30px;
+	font-size: 28px;
 	margin: 0 0 50px 0;
-}
 
-.project_name > a {
-	color: slategray;
-	font-size: 20px;
-	font-weight: 500;
 }
 
 .project_name {
@@ -87,8 +104,9 @@ a {
 
 }
 
-.project_description {
-	font-size: 18px;
+.paragraph {
+	font-size: 20px;
+	line-height: 2;
 }
 
 .projects *:not(:first-child){

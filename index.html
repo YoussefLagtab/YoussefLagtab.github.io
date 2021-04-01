@@ -14,15 +14,18 @@
 	</head>
 	<body>
 		<main>
+			<div id="togglTheme">
+				<button id="toggleThemeBtn">Light</button>
+			</div>
 			<div>
 				<h1 id="hello" class="center_text">
-					Hi (￣O￣)／, I'm <span id="name">Youssef Lagtab</span>.
+					Hi (￣O￣)／, I'm <span id="name">Youssef Lagtab.</span>
 				</h1>
-				<p id="bio" class="center_text">
+				<p id="bio" class="center_text paragraph">
 					I am currently a student at
-					<a target="_blank" href="https://1337.ma/en">1337 Coding school</a>.<br /><br />
-					I love building software, mostly project that includes systems programming, <br /><br />
-					low level Languages, or anything that does not include a gui ＼（-_-）／.
+					<a target="_blank" href="https://1337.ma/en">1337 Coding school</a>.
+					I love building software, mostly project that includes systems programming,
+					low level Languages, or anything that does not include a gui <span style="white-space:nowrap">＼（-_-）／.</span>
 				</p>
 			</div>
 			<div>
@@ -40,9 +43,9 @@
 						<div class="project_name">
 							<a target="_blank" href="https://github.com/Sisteem/21sh">* 21sh *</a>
 						</div>
-						<p class="project_description">
-							A minimal shell when I learnd how to parse command line, handle i/o  <br /><br />
-							redirections, code some shell builtins, execute system exectutables, <br/><br/>
+						<p class="paragraph">
+							A minimal shell when I learnd how to parse command line, handle i/o
+							redirections, code some shell builtins, execute system exectutables,
 							execute pipe sequence commands...
 						</p>
 					</div>
@@ -50,8 +53,8 @@
 						<div class="project_name">
 							<a href="">* ft_ls *</a>
 						</div>
-						<p class="project_description">
-							Recode of the unix command `ls`, I got to know how to list directories,<br /><br />
+						<p class="paragraph">
+							Recode of the unix command `ls`, I got to know how to list directories
 							retrieve inodes stats, and formating the output depending on some options...
 						</p>
 					</div>
@@ -59,9 +62,9 @@
 						<div class="project_name">
 							<a target="_blank" href="https://github.com/YoussefLagtab/libft/tree/master/ft_printf">* ft_printf *</a>
 						</div>
-						<p class="project_description">
-							Recode of the C function `printf` (stdio.h/printf), with this project, I learned <br /><br />
-							some great concepts, such as reading floating point numbers from memory as bits, <br /><br />
+						<p class="paragraph">
+							Recode of the C function `printf` (stdio.h/printf), with this project, I learned
+							some great concepts, such as reading floating point numbers from memory as bits,
 							calculate their values with the help of bigints (wich I implemeted as well).
 						</p>
 					</div>
@@ -70,4 +73,5 @@
 		</main>
 		<div id="background"></div>
 	</body>
+	<script src="script.js"></script>
 </html>
