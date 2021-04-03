@@ -31,7 +31,7 @@ main {
 	height: 100%;
 	width: 100%;
 	z-index: -1;
-	opacity: .04;
+	opacity: 0.04;
 	background-image: url('./background.jpg');
 	background-size: cover;
 	background-position: center;
@@ -70,6 +70,8 @@ a {
 }
 
 #hello {
+	font-size: 30px;
+	font-weight: 500;
 	margin-bottom: 30px;
 }
 
@@ -84,6 +86,21 @@ a {
 	margin-top: 70px;
 }
 
+#find_me > div {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+@media (max-width: 480px) {
+	#find_me > div {
+		display: flex;
+		flex-direction: column;
+	}
+	#find_me > div > a:not(:last-child) {
+		margin-bottom: 10px;
+	}
+}
+
 #projects {
 	margin-top: 70px;
 }
@@ -93,15 +110,14 @@ a {
 }
 
 .title {
-	font-size: 28px;
+	font-size: 30px;
+	font-weight: 500;
 	margin: 0 0 50px 0;
-
 }
 
 .project_name {
 	margin-bottom: 40px;
 	margin-top: 40px;
-
 }
 
 .paragraph {
@@ -109,10 +125,10 @@ a {
 	line-height: 2;
 }
 
-.projects *:not(:first-child){
+.projects *:not(:first-child) {
 	margin: 40px 0 10px 0;
 }
-
+/*
 .contact {
 	margin: 0 25px;
-}
+} */
