@@ -5,12 +5,12 @@ const themes = {
 	[DARK_THEME]: {
 		colors:{
 			primary: 'whitesmoke',
-			secondary: '#0e1013'
+      secondary: '#1E2028'
 		}
 	},
 	[LIGHT_THEME]: {
 		colors:{
-			primary: '#0e1013',
+      primary: '#1E2028',
 			secondary: 'whitesmoke'
 		}
 	},
